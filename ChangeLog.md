@@ -3,8 +3,20 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+## 3.4
+- FIX : Fatal this->db was always empty - *22/01/2024* - 3.4.1
+- NEW :   Changed Dolibarr compatibility range to 12 min - 19 max  	- *29/11/2023* - 3.4.0
+	  Changed PHP compatibility range to 7.0 min - 8.2 max		- *29/11/2023* - 3.4.0
+
+
+## 3.3
+
+- NEW: Nouvelle conf permettant de cocher par défaut la case pour suivre les tâches et le temps passé lors de la création d'un projet - *24/08/2023* - 3.3.0
+
 
 ## 3.2
+
+- FIX : DA023853 - Inversion du test de version - *27/09/2023* - 3.2.6  
 - FIX : Inversion du test de version - *05/07/2023* - 3.2.4  
 - FIX : Compat Dolibarr V18 *12/06/2023* - 3.2.4
 - FIX : update llx_extrafields sans where *10/03/2023* - 3.2.3
